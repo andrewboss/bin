@@ -1,0 +1,9 @@
+ssh_authorized_keys:
+  - ssh-rsa AAAAB3NzaC1yc2EAAAABIwAAAQEAzsKVe3aDgHc+/vzloKLwUoCwdLYFFhuSFR9AimdG85uIBtIAHYdh94O0ToFsw5m1Iqv5rUFs0aZDHwo3TP6+ULAwrACblmDxF5GGVlgV4db4m3uE94mHFYDbU7l6eLTelzfW8hWy9JOl37lt/K4E8S2aL29CILfndii9zNAJ4659jqJlyegU+oMPtAgrXVDv1rJ3ZJRxRNYuVVaKMs3zyHCgfL+plnyR83MpU7Q/bU7L3wyFI14f3zjev5pccCC5ox8LYAYWTXOg9nt8BMD4hleX2dWCF7KCYMxRPM5VfLBBO7712KX9XVsAcD2M4y+KAVGaY2oLS3Vf5dsi5Cuolw== Andrejus@ANDREJUS-PC
+rancher:
+  services_include:
+    ubuntu-console: true
+  network:
+    interfaces:
+      eth0:
+        dhcp: true
